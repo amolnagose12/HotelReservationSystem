@@ -1,14 +1,15 @@
 package com.bridgelabz.hotelreservationstsyem;
 
 public class Hotel {
-    /*Created the variable and constructor of class and applied getter and setter*/
+    /*
+     * Created the variable and constructor of class and applied getter and setter
+     */
     private String name;
     private int regularWeekdayRate;
     private int regularWeekendRate;
     private int rewardsWeekdayRate;
     private int rewardsWeekendRate;
     private int rating;
-
     public Hotel(String name, int regularWeekdayRate, int regularWeekendRate, int rewardsWeekdayRate,
                  int rewardsWeekendRate, int rating) {
         this.name = name;
@@ -68,4 +69,3 @@ public class Hotel {
     }
 
 }
-
